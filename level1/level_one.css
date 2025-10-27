@@ -1,4 +1,38 @@
 .container {
     display: grid;
     /* style the columns and rows here */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 400px;
+    font-size: 50px;
+    font-family: arial;
+    text-align: center;
+    line-height: 400px;
+  }
+
+  .w{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: grey;
+    background-color: skyblue;
+  }
+
+  .sp{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: grey;
+    background-color:darkseagreen;
+  }
+
+  .su{
+    border-radius: 5px;
+    border-style: solid;
+    background-color:lemonchiffon;
+    border-color: grey;
+  }
+
+  .f{
+    border-radius: 5px;
+    border-style: solid;
+    background-color: salmon;
+    border-color: grey;
   }

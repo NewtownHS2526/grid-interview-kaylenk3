@@ -1,5 +1,139 @@
-.months-container {
+.months-container{
+    display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-template-rows: repeat(3, 200px);
+ font-size: 30px;
+ font-family: arial;
+ text-align: center;
+ 
+}
+.green{
+ background-color: darkseagreen;
+  border-style: solid;
+ border-color: dimgray;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.blue{
+ background-color: lightblue;   
+  border-style: solid;
+ border-color: dimgray;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.rose{
+background-color: palevioletred;
+ border-style: solid;
+ border-color: dimgray;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.pink{
+background-color: pink;
+ border-style: solid;
+ border-color: dimgray;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.salmon{
+background-color: salmon;
+ border-style: solid;
+ border-color: dimgray;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.yellow{
+background-color: lemonchiffon;
+ border-style: solid;
+ border-color: dimgray;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 
-.days-container {
+
+#days-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "day day day day day day day"
+    "date date date date date date date ";
+    grid-template-rows: repeat(5, 1fr);
+    font-size: 25px;
+    font-family: arial;
+    text-align: center;
 }
+.green{
+ background-color: darkseagreen;
+  border-style: solid;
+ border-color: dimgray;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-family: arial;
+}
+.blue{
+ background-color: lightblue;   
+  border-style: solid;
+ border-color: dimgray;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-family: arial;
+}
+.purple{
+background-color: plum;
+ border-style: solid;
+ border-color: dimgray;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-family: arial;
+}
+.pink{
+background-color: pink;
+ border-style: solid;
+ border-color: dimgray;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-family: arial;
+}
+.salmon{
+background-color: salmon;
+ border-style: solid;
+ border-color: dimgray;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-family: arial;
+}
+.yellow{
+background-color: lemonchiffon;
+ border-style: solid;
+ border-color: dimgray;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-family: arial;
+}
+
+
+
